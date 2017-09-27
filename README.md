@@ -13,7 +13,7 @@ Install Vue-cli with webpack:
 $ npm install -g vue-cli
 ```
 
-###Install below required tools
+#### Install below required tools
 ```
 ? Project name: 
 ? Project description: 
@@ -28,13 +28,13 @@ $ npm install -g vue-cli
 vue-cli Generated "ui-elements"
 ```
 
-### Install dependencies in `package.json`:
+#### Install dependencies in `package.json`:
 ```shell
 $ cd ui-elements 
 $ npm install  # do this first before you add more dependencies (to avoid peer warns)
 ```
 
-### Run the Dev Server
+#### Run the Dev Server
 
 Run the dev server:
 ```shell
@@ -42,7 +42,7 @@ $ cd ~/ui-elements
 $ npm run dev
 ```
 
-### Build application
+#### Build application
 ```shell
 $ cd ~/ui-elements 
 $ npm run build
