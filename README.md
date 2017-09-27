@@ -5,14 +5,12 @@ Clone UI-Elements in desired drive
 
 #### Install Node and NPM
 
-## Install Vue-CLI
+### Install Vue-CLI
   
-Install Vue-cli with webpack:
-
+Install Vue-cli globally
 ```shell
 $ npm install -g vue-cli
 ```
-
 #### Install below required tools
 ```
 ? Project name: 
@@ -27,13 +25,11 @@ $ npm install -g vue-cli
 
 vue-cli Generated "ui-elements"
 ```
-
 #### Install dependencies in `package.json`:
 ```shell
 $ cd ui-elements 
 $ npm install  # do this first before you add more dependencies (to avoid peer warns)
 ```
-
 #### Run the Dev Server
 
 Run the dev server:
@@ -41,7 +37,6 @@ Run the dev server:
 $ cd ~/ui-elements 
 $ npm run dev
 ```
-
 #### Build application
 ```shell
 $ cd ~/ui-elements 
